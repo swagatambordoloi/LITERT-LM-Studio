@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Frontend Nodes & Build Outputs
+node_modules
+dist
+dist-ssr
+*.local
+
+# Tauri & Rust Targets (CRUCIAL - Adds your fix)
+src-tauri/target/
+src-tauri/Cargo.lock
+src-tauri/*.toml
+temp_config.toml
+*.litertlm
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
